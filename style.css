@@ -1,0 +1,133 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: rgb(12, 12, 12);
+  color: white;
+}
+
+#pagina{
+  display: flex;
+  flex-direction: column;
+}
+
+#config{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 20px;
+  gap: 20px;
+  
+
+}
+
+#taxaDeCrescimento{
+
+  display: flex;
+  flex-direction: row;
+  gap: 10px
+}
+
+#tempoDeCrescimento{
+
+  display: flex;
+  flex-direction: row;
+  gap: 10px
+}
+
+#tempoInicial{
+
+  display: flex;
+  flex-direction: row;
+  gap: 10px
+}
+
+
+
+
+span{
+  color: white;
+  font-size: 21px;
+  font-family: 'Lucida Sans';
+  font-weight: lighter;
+  margin-top: 2px;
+  display: inline-block;
+
+}
+
+.spanVermelho{
+  color: red;
+}
+
+.spanAzul{
+  color: rgb(46, 149, 175);
+}
+
+.spanVerde{
+  color: rgb(46, 175, 74);
+}
+
+.spanAmarelo{
+  color:yellow;
+}
+
+.imagemVermelho{
+  filter: hue-rotate(270deg);
+}
+
+input{
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  height: 30px;
+  font-size: 20px;
+}
+
+
+button{
+  width: 150px;
+  font-family: 'Lucida Sans';
+  font-weight: lighter;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+button:hover{
+  background-color: rgb(190, 82, 82);
+  transition: 0.5s ease-in-out;
+}
+
+#linha{
+  height: 1px;
+  background-color: gray;
+}
+
+#simulacao{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-right: 100px;
+}
+
+#simulacao1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#simulacao2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#simulacao3{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#simulacao4{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
