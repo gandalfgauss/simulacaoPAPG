@@ -6,6 +6,7 @@ let botaoConfirmarLetra = document.querySelector("#confirmarLetra");
 let botaoConfirmarPA = document.querySelector("#confirmarPA");
 let botaoConfirmarLetraPA = document.querySelector("#confirmarLetraPA");
 let botaoParar = document.querySelector("#parar");
+let textoParar = document.querySelector("#parar span");
 let parou = false;
 let simulacao1 = document.querySelector("#simulacao1");
 let textoSimulacao1 = document.querySelector("#textoSimulacao1");
@@ -37,7 +38,7 @@ botaoConfirmar.addEventListener("click", ()=>{
   //Inicializar
   clearInterval(pararFuncao);
   parou = false;
-  botaoParar.textContent = "Parar";
+  textoParar.textContent = "Parar";
   qualIteracao = 1;
   redimensionar = 1;
   contador1 = 0;
@@ -78,7 +79,7 @@ botaoConfirmarLetra.addEventListener("click", ()=>{
   //Inicializar
   clearInterval(pararFuncao);
   parou = false;
-  botaoParar.textContent = "Parar";
+  textoParar.textContent = "Parar";
   qualIteracao = 1;
   redimensionar = 1;
   contador1 = 0;
@@ -119,7 +120,7 @@ botaoConfirmarPA.addEventListener("click", ()=>{
   //Inicializar
   clearInterval(pararFuncao);
   parou = false;
-  botaoParar.textContent = "Parar";
+  textoParar.textContent = "Parar";
   qualIteracao = 1;
   redimensionar = 1;
   contador1 = 0;
@@ -160,7 +161,7 @@ botaoConfirmarLetraPA.addEventListener("click", ()=>{
   //Inicializar
   clearInterval(pararFuncao);
   parou = false;
-  botaoParar.textContent = "Parar";
+  textoParar.textContent = "Parar";
   qualIteracao = 1;
   redimensionar = 1;
   contador1 = 0;
@@ -200,12 +201,12 @@ botaoParar.addEventListener("click", ()=>{
     if(!parou)
     {
       parou = true;
-      botaoParar.textContent="Continuar";
+      textoParar.textContent="Continuar";
       clearInterval(pararFuncao);
     }
     else{
       parou = false;
-      botaoParar.textContent="Parar";
+      textoParar.textContent="Parar";
       if(executou)
       {
         pararFuncao = setInterval(executarSimulacao, tempo*1000);

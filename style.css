@@ -5,6 +5,23 @@ body{
   color: white;
 }
 
+
+p{
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: 1px;
+  margin-left: 5px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: red;
+  transition: 0.4s ease-in-out;
+}
+
 #pagina{
   display: flex;
   flex-direction: column;
