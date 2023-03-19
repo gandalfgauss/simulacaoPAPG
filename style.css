@@ -74,12 +74,19 @@ span{
   filter: hue-rotate(270deg);
 }
 
+
+
 input{
   border: none;
   outline: none;
   border-radius: 2px;
   height: 30px;
   font-size: 20px;
+}
+
+input::placeholder {
+  color: blue;
+
 }
 
 
