@@ -93,6 +93,15 @@ button{
   color: black;
   font-weight: bold;
   background-color: rgb(2, 190, 2);
+
+}
+
+.textoBotao
+{
+  color: black;
+  font-weight: bold;
+  font-family:Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
 }
 
 
