@@ -89,6 +89,10 @@ input::placeholder {
 
 }
 
+button{
+  color: blue;
+}
+
 
 button{
   width: 150px;
